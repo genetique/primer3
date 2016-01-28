@@ -16,7 +16,7 @@ uninstall:
 	cd $(BIN_PATH) && rm -f $(BINARIES)
 
 clean: 
-	rm src/*.o src/*.a
+	rm -f src/*.o src/*.a
 	for cmd in $(BINARIES); do rm -f src/$$cmd; done
 
 build: clean
