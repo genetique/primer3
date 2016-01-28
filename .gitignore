@@ -1,0 +1,8 @@
+build
+src/*.o
+src/*.a
+src/long_seq_tm_test
+src/ntdpal
+src/ntthal
+src/oligotm
+src/primer3_core
